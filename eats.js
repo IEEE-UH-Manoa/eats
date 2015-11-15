@@ -5,7 +5,7 @@ var updateEat = function(data){
   });
 }
 
-$.get("http://api.ieeeatuhm.com/eats", updateEat);
+$.get("http://api.ieeeatuhm.com/eat", updateEat);
 
 $(document).keypress(function(e) {
   if(e.which == 13) {
