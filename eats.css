@@ -2,13 +2,14 @@ body{
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    background: #F5F5DC;
+    background: #fff7e5;
 }
 
 #eats-well{
   font-size:3em;
   top: 50%;
   padding:50px;
+  background: rgb(250, 250, 250);
 }
 
 #footer{
