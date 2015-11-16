@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<link rel="stylesheet" type="text/css" href="eats.css">
 </head>
 <body>
-  <h1> Eat </h1>
-  <p id="eats">-</p>
-  <p> Press the enter key to reload </p>
-  <p>
-  <a target="_blank" href="https://wiki.ieeeatuhm.com/doku.php?id=good_eats:start">
-    Wiki Page</a><br />
-  <a target="_blank" href="https://github.com/IEEE-UH-Manoa/eats">
-    Page Github Repository</a>
-  </p>
+  <h1> Eat at: </h1>
+  <div id="eats-well">
+    <p id="eats">-</p>
+  </div>
+  <h1> <button id="try_again">Try another place</button> </h1>
+
+  <div id="footer">
+    <hr id="footer-sep" />
+    <p> IEEE Student Branch at UH Manoa </p>
+    <p>
+      <a target="_blank" href="https://wiki.ieeeatuhm.com/doku.php?id=good_eats:start"> Wiki Page</a><br />
+      <a target="_blank" href="https://github.com/IEEE-UH-Manoa/eats">
+        Repository</a>
+    </p>
+  </div>
 </body>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="eats.js"></script>
 </html>

@@ -12,3 +12,7 @@ $(document).keypress(function(e) {
     $.get("http://api.ieeeatuhm.com/eats", updateEat);
   }
 });
+
+$('#try_again').click(function(){
+    $.get("http://api.ieeeatuhm.com/eats", updateEat);
+});
