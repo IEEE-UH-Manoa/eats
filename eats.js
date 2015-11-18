@@ -1,8 +1,8 @@
 $(document).ready(function(){
     var updateEat = function(data){
-      $('#eats').fadeOut("fast", function(){
+      $('#eats-well').fadeOut("fast", function(){
           $('#eats').text(data);
-          $('#eats').fadeIn("fast");
+          $('#eats-well').fadeIn("fast");
       });
     }
 
